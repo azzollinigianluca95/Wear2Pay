@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Wear2Pay</string>
+    <string name="navigation_drawer_open">Open navigation</string>
+    <string name="navigation_drawer_close">Close navigation</string>
+    <string name="user">Ciao\n Gianluca Azzollini\n\nIl tuo credito residuo è:\n</string>
+    <string name="payment">Avvicinarsi al lettore per\neffettuare il pagamento... </string>
+    <string name="connected">Connesso ✓</string>
+    <string name="select_product">Selezionare il prodotto dal distributore\n. . .</string>
+    <string name="purchase_done">Acquisto completato\con successo!</string>
+    <string name="cost">-1.25€</string>
+    <string name="ins_credit">Credito insufficiente\nper completare\nla transazione</string>
+    <string name="transaction_list">Lista\ntransazioni:</string>
+    <string name="text">17.50$</string>
+    <string name="enable_bt">Abilitare connessione Bluetooth?</string>
+    <string name="enabled_conn_bt">Connessione Bluetooth avvenuta con successo</string>
+    <string name="title_activity_2">Activity2</string>
+    <string name="ciao">ciao come va</string>
+    <string name="timer_off">\n\nTimeout\ndi connessione</string>
+    <string name="login">\Login \n non effettuato:\n effettuare il login\n da app\n per smartphone</string>
+    <string name="login_start">\nLogin</string>
+    <string name="scanning">\nScansione\nVending Machines</string>
+    <string name="List_transactions">\nTransazioni</string>
+    <string name="purchase_completed">Acquisto completato</string>
+    <string name="conn_scaduta">\n\n\nConnessione\nscaduta</string>
+
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tazzine2"
+    tools:deviceIds="wear">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginTop="-43.5dp"
+        android:text="@string/purchase_completed"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/purchase_completed1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="48dp"
+        android:textColor="@color/dark_red"
+        android:textSize="45dp"
+        android:text="@string/cost"
+        android:textStyle="bold"
+        />
+    </RelativeLayout>
+
+
+
+
+
+
+
+

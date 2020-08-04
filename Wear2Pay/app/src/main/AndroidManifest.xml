@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Wear2Pay">
+
+    <uses-feature android:name="android.hardware.type.watch" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:roundIcon="@drawable/logo_tondo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true">
+
+       <uses-library
+            android:name="com.google.android.wearable"
+            android:required="true" />
+
+        <activity
+            android:name="com.example.wear2pay.Connection_Timeout_6c"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.DeviceDefault.Light">
+        </activity>
+
+        <activity
+            android:name="com.example.wear2pay.Unsufficient_Credit_6b"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.DeviceDefault.Light">
+        </activity>
+
+        <activity
+            android:name="com.example.wear2pay.Purchase_Done_6a"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.DeviceDefault.Light">
+        </activity>
+
+        <activity
+            android:name="com.example.wear2pay.Select_Product_5"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.DeviceDefault.Light">
+        </activity>
+
+        <activity
+            android:name="com.example.wear2pay.List_Transactions_4"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.example.wear2pay.Select_Vendors_3"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.example.wear2pay.Main_Activity_2"
+            android:label="@string/title_activity_2">
+        </activity>
+
+        <activity
+            android:name="com.example.wear2pay.Login_1"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.example.wear2pay.Logo_0"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>

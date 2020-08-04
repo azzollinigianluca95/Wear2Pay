@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tazzine2"
+    tools:deviceIds="wear">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.9"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/presentation_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_centerInParent="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/wallet_value"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.9"
+        android:orientation="horizontal"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:scaleY="0.9"
+        android:scaleX="0.8"
+        android:weightSum="2">
+
+
+        <Button
+            android:id="@+id/shopping_cart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/carrello"
+            android:color="@color/white"
+            android:textColor="#263EA3"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/list_transaction"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/lista_transazioni"
+            android:textColor="@color/white"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

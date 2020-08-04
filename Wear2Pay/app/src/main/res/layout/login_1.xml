@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tazzine2"
+    android:id="@+id/myrl">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1.0"
+        android:layout_marginTop="-3.5dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/login_start"
+            android:textSize="21.5dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1.0">
+    <EditText
+        android:hint="Username"
+        android:textSize="20dp"
+        android:textColorHint="@color/disabled_text_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etUserName"
+        android:layout_alignParentTop="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1.0"
+        android:layout_height="match_parent">
+    <EditText
+        android:hint="Password"
+        android:textSize="20dp"
+        android:textColorHint="@color/disabled_text_light"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textWebPassword"
+        android:ems="10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/etPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1.0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/check"
+        android:id="@+id/btnLogin"
+        android:gravity="center"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="10dp"
+        android:scaleX="0.25"
+        android:onClick="OnLogin"/>
+    </LinearLayout>
+
+
+</LinearLayout>

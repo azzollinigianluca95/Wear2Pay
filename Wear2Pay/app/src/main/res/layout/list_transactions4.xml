@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tazzine2"
+    tools:deviceIds="wear">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TransactionList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/List_transactions"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:layout_marginBottom="11dp"
+        android:orientation="vertical">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars = "vertical"
+            android:textColor="@color/white"
+            android:dividerHeight="3dp"
+            android:id="@+id/listview"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/annulla"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:color="@color/white"
+            android:background="@drawable/annulla"
+            android:scaleX="0.23"
+            android:scaleY="1"
+            android:layout_marginBottom="23dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</LinearLayout>
