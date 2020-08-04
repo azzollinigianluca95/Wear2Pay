@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bottle_water"  />
+    <item android:text="ciao"
+        android:gravity="center"
+        android:width="100dp"
+        android:height="100dp"
+        android:right="100dp"
+        android:left="100dp"
+        android:top="100dp"/>
+</layer-list>

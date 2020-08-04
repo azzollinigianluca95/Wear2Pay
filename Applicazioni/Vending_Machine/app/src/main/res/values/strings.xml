@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Vending_Machine</string>
+    <string name="title">Wear2Pay</string>
+    <string name="simulation">Start simulation</string>
+    <string name="connecting">In attesa di connessione</string>.
+    <string name="yes">si</string>
+    <string name="no">no</string>
+    <string name="year_w2p">2019 Wear2Pay</string>
+    <string name="version">\nVersione 1.1</string>
+    <string name="Developers">Developers:\nSergio Abascià,\nGianluca Azzollini,\nAlberto Carlo Maria Mancino"</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="inc">2019 Wear2Pay Inc.</string>
+    <string name="purchase_completed">Acquisto completato!\nRitirare il prodotto</string>
+    <string name="purchase_not_completed">Acquisto non completato</string>
+    <string name="title_activity_activity3a">Activity3a</string>
+    <string name="buy_product">Acquista prodotto</string>
+    <string name="recharge_wallet">Ricarica Wallet</string>
+    <string name="info">Info</string>
+    <string name="price">1€</string>
+    <string name="buy_products">Acquistare prodotto?</string>
+    <string name="selected_product">Prodotto selezionato,\n in attesa di connessione</string>
+    <string name="product_out">Erogazione prodotto\in cors</string>
+    <string name="not_done_purchase">Acquisto \nnon concluso</string>
+
+</resources>

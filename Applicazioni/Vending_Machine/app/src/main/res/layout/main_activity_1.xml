@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@drawable/tazzine">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.6"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:orientation="vertical" >
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:textSize="20dp"
+                 android:textStyle="bold"
+                 android:id="@+id/bt_name"
+                 android:textColor="#5c2e00"
+                 android:layout_marginLeft="13dp"
+                 android:layout_marginTop="32dp">
+             </TextView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.4"
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleY="0.5"
+                android:scaleX="0.5"
+                android:layout_marginLeft="80dp"
+                android:background="@drawable/logo_tondo">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="82dp"
+                android:textColor="#5c2e00"
+                android:textStyle="bold"
+                android:text="@string/title" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.6"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Avvia simulazione"
+            android:layout_marginTop="66dp"
+            android:textSize="35dp"
+            android:textColor="#5c2e00"
+            android:textStyle="bold"
+            android:textAlignment="center">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="32dp"
+            android:textColor="#5c2e00"
+            android:layout_marginTop="175dp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1.2">
+        <Button
+            android:layout_marginLeft="150dp"
+            android:id="@+id/buy_product"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="-55dp"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:textColor="#FFFFFF"
+            android:layout_centerInParent="true"
+            android:background="@drawable/chart_in_buttonshape_3"
+            android:shadowColor="#171717"
+            android:shadowRadius="5"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_marginLeft="150dp"
+            android:id="@+id/info"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:textColor="#FFFFFF"
+            android:layout_centerInParent="true"
+            android:background="@drawable/info_in_buttonshape_3"
+            android:shadowColor="#171717"
+            android:layout_marginBottom="40dp"
+            android:shadowRadius="5"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
