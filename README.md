@@ -6,8 +6,8 @@ The user will be able to log into Wear2Pay system leveraging Internet connection
 Sergio Abascià, Gianluca Azzollini, Alberto Carlo  Maria Mancino
 
 **Developers** <br/>
-Sergio Abascià
-Gianluca Azzollini  
+Sergio Abascià <br/>
+Gianluca Azzollini <br/>
 Alberto Carlo Maria Mancino
 
 **Contacts** <br/>
